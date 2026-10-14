@@ -9,7 +9,7 @@ export default function Categoria({ categoria }) {
   return (
     <div className={`${categoriaActual?.id === id ? "bg-amber-400" : "hover:bg-amber-400"} 
       flex items-center gap-4 border w-full p-3 cursor-pointer`}>
-        <img
+       <img
           alt="Imagen icono"
           src={`/img/icono_${icono}.svg`}
           className="w-12"
